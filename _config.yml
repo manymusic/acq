@@ -9,3 +9,5 @@ math: katex
 url: https://manymusic.net/acq/
 aux_links:
   project-home: https://manymusic.net/
+ga_tracking: "G-ZFFKEV0ZL0"
+ga_tracking_anonymize_ip: true
