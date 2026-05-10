@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: ManyMusic-Acq
+description: Progress documentation for ManyMusic-fMRI+ acquisition
+version: 0.0.1
+baseurl: manymusic.net
+language: en
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
+color_scheme: light
+math: katex
+url: https://manymusic.net/acq/
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  project-home: https://manymusic.net/
