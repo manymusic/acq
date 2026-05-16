@@ -1,5 +1,5 @@
 ---
-title: motion_sub-09
+title: sub-09
 layout: page
 nav_order: 9
 parent: motion

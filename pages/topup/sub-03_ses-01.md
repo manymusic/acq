@@ -1,9 +1,9 @@
 ---
 title: topup_sub-03_ses-01
 layout: page
-nav_order:1
+nav_order: 1
 grand_parent: topup
-parent: topup_sub-03
+parent: sub-03
 ---
 # sub-03_ses-01
 ![slices-1](figs/sub-03_ses-01_run-01.png)

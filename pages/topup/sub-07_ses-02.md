@@ -1,9 +1,9 @@
 ---
 title: topup_sub-07_ses-02
 layout: page
-nav_order:2
+nav_order: 2
 grand_parent: topup
-parent: topup_sub-07
+parent: sub-07
 ---
 # sub-07_ses-02
 ![slices-1](figs/sub-07_ses-02_run-01.png)
