@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (16-May-2026 17:21:04 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (16-May-2026 20:18:34 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current acquisition
 
@@ -21,33 +21,4 @@ Here, the current (16-May-2026 17:21:04 `Europe/Berlin`) progress of the fMRI+ d
 ![emo-ridge](figs/emo-ridges.png)
 
 <small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know). Top: in-scanner; Bottom: out-scaner. *jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>
-
-## Head motion
-
-### sub-07_ses-01
-![headmotion](figs/sub-07_ses-01.png)
-
-### sub-10_ses-01
-![headmotion](figs/sub-10_ses-01.png)
-
-### sub-03_ses-01
-![headmotion](figs/sub-03_ses-01.png)
-
-### sub-01_ses-01
-![headmotion](figs/sub-01_ses-01.png)
-
-### sub-09_ses-01
-![headmotion](figs/sub-09_ses-01.png)
-
-### sub-07_ses-02
-![headmotion](figs/sub-07_ses-02.png)
-
-### sub-10_ses-02
-![headmotion](figs/sub-10_ses-02.png)
-
-### sub-03_ses-02
-![headmotion](figs/sub-03_ses-02.png)
-
-### sub-09_ses-02
-![headmotion](figs/sub-09_ses-02.png)
 
