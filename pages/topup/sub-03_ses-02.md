@@ -1,15 +1,12 @@
 ---
-title: ses-03
+title: ses-02
 layout: page
 nav_order: 2
 grand_parent: topup
-parent: sub-02
+parent: sub-03
 ---
-# topup: sub-03_ses-03
----
-title: ses-02
-layout: page
-nav_order: ![slices-1](figs/sub-03_ses-02_run-01.png)
+# topup: sub-03_ses-02
+![slices-1](figs/sub-03_ses-02_run-01.png)
 
 ![slices-2](figs/sub-03_ses-02_run-02.png)
 
