@@ -5,6 +5,29 @@ nav_order: 9
 parent: topup
 ---
 # topup: sub-09
+### 20260521T1502:sub-09_ses-03
+![slices_run-01](figs/sub-09_ses-03_run-01.png)
+
+![slices_run-02](figs/sub-09_ses-03_run-02.png)
+
+![slices_run-03](figs/sub-09_ses-03_run-03.png)
+
+![slices_run-04](figs/sub-09_ses-03_run-04.png)
+
+![slices_run-05](figs/sub-09_ses-03_run-05.png)
+
+![slices_run-06](figs/sub-09_ses-03_run-06.png)
+
+![slices_run-07](figs/sub-09_ses-03_run-07.png)
+
+![slices_run-08](figs/sub-09_ses-03_run-08.png)
+
+![slices_run-09](figs/sub-09_ses-03_run-09.png)
+
+![slices_run-10](figs/sub-09_ses-03_run-10.png)
+
+![slices_run-11](figs/sub-09_ses-03_run-11.png)
+
 ### 20260515T1454:sub-09_ses-02
 ![slices_run-01](figs/sub-09_ses-02_run-01.png)
 
