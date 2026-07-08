@@ -9,6 +9,11 @@ I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you rep
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
+## Why can't I use the scanner? 🥵🔥
+Updated: 2026-06-27
+
+Because of the global warming that caused the all-time heat record (41.5 degree Celsius) in Frankfurt for the past week, the cooling system at the CoBIC has been malfunctioning, and all three scanners have been shut down to prevent the need for emergency quenching.
+
 
 ## Why won't the Psychtoolbox proceed after sound playback? ⛔
 Updated: 2026-05-15
