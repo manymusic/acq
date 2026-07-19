@@ -5,6 +5,9 @@ nav_order: 1
 parent: motion
 ---
 # headmotion: sub-01
+### 20260718T1216:sub-01_ses-06
+![headmotion](figs/sub-01_ses-06.png)
+
 ### 20260703T0952:sub-01_ses-05
 ![headmotion](figs/sub-01_ses-05.png)
 
