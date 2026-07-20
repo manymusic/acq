@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (20-Jul-2026 22:42:35 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (20-Jul-2026 22:57:29 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current acquisition
 
@@ -16,9 +16,4 @@ Here, the current (20-Jul-2026 22:42:35 `Europe/Berlin`) progress of the fMRI+ d
 
 ![goodness](figs/isgood.png)
 <br><small>fdMax: framewise displacement max (mm). fdMed: FD median. fdStd: FD standard deviation. resp: respiration belt. puls: pulse-oximeter. var: variance. in-gems: in-scanner-GEMS. pupil: in-scanner EyeLink pupil. liking: post-scanning liking rating. out-gems: post-scanning-GEMS.</small>
-
-## Overall emotional responses
-![emo-ridge](figs/emo-ridges.png)
-
-<small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know). Top: in-scanner; Bottom: out-scaner. *jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>
 
