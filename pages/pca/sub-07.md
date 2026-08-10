@@ -27,3 +27,9 @@ run-06
 run-07
 ![pca_run-07](figs/sub-07_ses-10_run-07.png)
 
+run-08
+![pca_run-08](figs/sub-07_ses-10_run-08.png)
+
+run-09
+![pca_run-09](figs/sub-07_ses-10_run-09.png)
+
