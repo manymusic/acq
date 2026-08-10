@@ -16,7 +16,7 @@ I managed to set up a CRON job to run preprocessing as soon as new data comes in
 
 Basically, in the SBATCH script, you need to wrap the line where it runs a MATLAB script with the `Xvfb` commands (and related bunch) like this:
 
-```{bash}
+```
 # Open a virtual display for MATLAB to run in headless mode
 mkdir -p /tmp/.X11-unix                                   
 chmod 1777 /tmp/.X11-unix 2>/dev/null    
