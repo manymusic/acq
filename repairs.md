@@ -9,6 +9,32 @@ I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you rep
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
+## Why does the headless MATLAB create a wrong figure? 🙈
+Updated: 2026-08-10
+
+I managed to set up a CRON job to run preprocessing as soon as new data comes in to the HPC. CRON gets the preprocessing done. But a small problem was that the headless MATLAB created figures slightly weirdly (wrong proportion; wrong font size...). `GPT` suggested multiple options of which none worked (e.g., changing MATLAB start up options or manually forcing figure properties). `Claude` suggested to use XDisplay (`Xvfb`)to virtually put a head on the CRON job, which worked perfectly. (We really need an Anthropic subscription instead of the Open AI one...)
+
+Basically, in the SBATCH script, you need to wrap the line where it runs a MATLAB script with the `Xvfb` commands (and related bunch) like this:
+
+```{bash}
+# Open a virtual display for MATLAB to run in headless mode
+mkdir -p /tmp/.X11-unix                                   
+chmod 1777 /tmp/.X11-unix 2>/dev/null    
+exec 5>/tmp/xvfb_disp_${SLURM_JOB_ID}                  
+Xvfb -displayfd 5 -screen 0 1920x1080x24 -nolisten unix -listen tcp &
+XVFB_PID=$!       
+sleep 1                                                             
+DISP=$(cat /tmp/xvfb_disp_${SLURM_JOB_ID})                       
+export DISPLAY=localhost:${DISP}
+
+# Run the MATLAB script
+matlab -batch "/ABS/PATH/TO/MATLAB/SCRIPT.m"
+
+# Clean up the virtual display       
+kill ${XVFB_PID}
+rm -f /tmp/xvfb_disp_${SLURM_JOB_ID}
+```
+
 ## Why can't I use the scanner? 🥵🔥
 Updated: 2026-06-27
 
