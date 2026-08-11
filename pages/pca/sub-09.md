@@ -289,3 +289,6 @@ run-08
 run-09
 ![pca_run-09](figs/sub-09_ses-03_run-09.png)
 
+run-10
+![pca_run-10](figs/sub-09_ses-03_run-10.png)
+
