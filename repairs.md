@@ -18,19 +18,19 @@ Basically, in the SBATCH script, you need to wrap the line where it runs a MATLA
 
 ```
 # Open a virtual display for MATLAB to run in headless mode
-mkdir -p /tmp/.X11-unix                                   
-chmod 1777 /tmp/.X11-unix 2>/dev/null    
-exec 5>/tmp/xvfb_disp_${SLURM_JOB_ID}                  
+mkdir -p /tmp/.X11-unix
+chmod 1777 /tmp/.X11-unix 2>/dev/null
+exec 5>/tmp/xvfb_disp_${SLURM_JOB_ID}
 Xvfb -displayfd 5 -screen 0 1920x1080x24 -nolisten unix -listen tcp &
-XVFB_PID=$!       
-sleep 1                                                             
-DISP=$(cat /tmp/xvfb_disp_${SLURM_JOB_ID})                       
+XVFB_PID=$!
+sleep 1                 
+DISP=$(cat /tmp/xvfb_disp_${SLURM_JOB_ID})
 export DISPLAY=localhost:${DISP}
 
 # Run the MATLAB script
 matlab -batch "/ABS/PATH/TO/MATLAB/SCRIPT.m"
 
-# Clean up the virtual display       
+# Clean up the virtual display
 kill ${XVFB_PID}
 rm -f /tmp/xvfb_disp_${SLURM_JOB_ID}
 ```
