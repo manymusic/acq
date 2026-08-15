@@ -5,6 +5,27 @@ nav_order: 10
 parent: topup
 ---
 # topup: sub-10
+### 20260813T1200:sub-10_ses-10
+![slices_run-01](figs/sub-10_ses-10_run-01.png)
+
+![slices_run-02](figs/sub-10_ses-10_run-02.png)
+
+![slices_run-03](figs/sub-10_ses-10_run-03.png)
+
+![slices_run-04](figs/sub-10_ses-10_run-04.png)
+
+![slices_run-05](figs/sub-10_ses-10_run-05.png)
+
+![slices_run-06](figs/sub-10_ses-10_run-06.png)
+
+![slices_run-07](figs/sub-10_ses-10_run-07.png)
+
+![slices_run-08](figs/sub-10_ses-10_run-08.png)
+
+![slices_run-09](figs/sub-10_ses-10_run-09.png)
+
+![slices_run-10](figs/sub-10_ses-10_run-10.png)
+
 ### 20260806T1156:sub-10_ses-09
 ![slices_run-01](figs/sub-10_ses-09_run-01.png)
 
@@ -201,8 +222,6 @@ parent: topup
 ![slices_run-10](figs/sub-10_ses-01_run-10.png)
 
 ![slices_run-11](figs/sub-10_ses-01_run-11.png)
-
-![slices_run-12](figs/sub-10_ses-01_run-12.png)
 
 ![slices_run-13](figs/sub-10_ses-01_run-13.png)
 

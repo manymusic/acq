@@ -360,3 +360,27 @@ run-04
 run-05
 ![pca_run-05](figs/sub-03_ses-01_run-05.png)
 
+run-06
+![pca_run-06](figs/sub-03_ses-01_run-06.png)
+
+run-07
+![pca_run-07](figs/sub-03_ses-01_run-07.png)
+
+run-08
+![pca_run-08](figs/sub-03_ses-01_run-08.png)
+
+run-09
+![pca_run-09](figs/sub-03_ses-01_run-09.png)
+
+run-10
+![pca_run-10](figs/sub-03_ses-01_run-10.png)
+
+run-11
+![pca_run-11](figs/sub-03_ses-01_run-11.png)
+
+run-12
+![pca_run-12](figs/sub-03_ses-01_run-12.png)
+
+run-13
+![pca_run-13](figs/sub-03_ses-01_run-13.png)
+
