@@ -4,7 +4,7 @@ layout: page
 nav_order: 7
 parent: rest-ica
 ---
-# pca: sub-07
+# rest-ica: sub-07
 sub-72_ses-07_rest-eyeopen
 ![rest-ica_sub-72_ses-07_rest-eyeopen](figs/sub-72_ses-07_rest-eyeopen.png)
 

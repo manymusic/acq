@@ -4,7 +4,7 @@ layout: page
 nav_order: 3
 parent: rest-ica
 ---
-# pca: sub-03
+# rest-ica: sub-03
 sub-32_ses-09_rest-eyeclos
 ![rest-ica_sub-32_ses-09_rest-eyeclos](figs/sub-32_ses-09_rest-eyeclos.png)
 
