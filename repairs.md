@@ -30,6 +30,11 @@ Inspired by [MARSS](https://doi.org/10.1002/hbm.70066), I looked at the slice-by
 
 This suggests that the zebra patterns may be not caused by the slice leakage, but rather by the head motion. The spiky temporal modes of the ICs also support this hypothesis. But then what explains the zebra patterns? 🤨
 
+I've further looked at the correlation matrices, but this time for each of the eighth of the run (18 volumes = ~26 seconds) because the IC timeseries suggested it is something transient.
+
+![Zebra patterns](figs/repair-03.png)
+
+It's interesting that the patterns do vary over time.
 
 ## Why does the headless MATLAB create a wrong figure? 🙈
 Updated: 2026-08-10
