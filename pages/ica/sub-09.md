@@ -2,7 +2,7 @@
 title: sub-09
 layout: page
 nav_order: 9
-parent: pca
+parent: ica
 ---
 # ica: sub-09
 ### 20260814T1341:sub-09_ses-11
