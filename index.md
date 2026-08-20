@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (10-Aug-2026 22:19:23 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (18-Aug-2026 14:52:16 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current acquisition
 
@@ -21,4 +21,20 @@ Here, the current (10-Aug-2026 22:19:23 `Europe/Berlin`) progress of the fMRI+ d
 ![emo-ridge](figs/emo-ridges.png)
 
 <small>Overall ratings pooled across all subjects. White bands mark 95%-confidence intervals. White circles mark arithmetic means (of ordinal variables! yes, I know). Top: in-scanner; Bottom: out-scaner. *jam*=Jamendo, *boh*=Bohemian, *app*=Apple. </small>
+
+## Bad runs
+
+![badness](figs/isbad.png)
+<br><small>These runs were bad for these reasons.</small>
+
+## Okay runs
+
+![okayness](figs/isokay.png)
+<br><small>Surprisingly many OKAY runs...</small>
+
+## Where am I now?
+
+![whereami](figs/whereiam.png)
+
+<small>#REDO tracks to be planed=1</small>
 
