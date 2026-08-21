@@ -9,6 +9,33 @@ I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you rep
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
+## Temporal cropping before ICA denoising 🎬
+Updated: 2026-08-20
+
+Because of our design of varying durations of runs, some EPI volumes were collected after the fixation cross offset (which happens 12 seconds after the music offset), which are not relevant to the analysis. And because the music listening was followed by button-press responses, the EPI volumes after the fixation cross offset are likely to contain motion artifacts. Highly contaminated time points can negatively affect the ICA algorithm (i.e., FSL's MELODIC).
+
+
+## Slice leakage 💦
+Updated: 2026-08-20
+
+It feels doomed to see slice leakage in the data when using the multiband (MB) sequence. (This also reminds me of the only thing I learned from majoring in economics at university—*There ain't no free lunch*. A more insightful lesson, however, would be to realise that there are people who strongly believe in this mantra.) We are using the state-of-the-art MB sequence developed by the Minnesota group (i.e. CMRR). We configured the parameters for this particular scanner together with an MR physicist and tested the sequence on human participants multiple times. We did not observe any obvious signal leakage in the GLM $t$-statistic maps when using Belin's voice localiser.
+
+However, I found the infamous "zebra patterns" (2 stipes angled as the acquisition slices) from the MELODIC IC maps that explain the quite a bit of variance in the data. Their temporal modes look highly spiky, which suggests that they might be related to head motion. This example is from `sub-01_ses-11_run-01`:
+
+![Zebra patterns](figs/repair-01.png)
+
+Inspired by [MARSS](https://doi.org/10.1002/hbm.70066), I looked at the slice-by-slice correlation matrices of the raw data. Surprisingly, the runs that showed the zebra patterns in the IC maps did not show the typical off-diagonal patterns (i.e., parallel lines corresponding the simultaneously acquired slices) in the slice-by-slice correlation matrices. 
+
+![Zebra patterns](figs/repair-02.png)
+
+This suggests that the zebra patterns may be not caused by the slice leakage, but rather by the head motion. The spiky temporal modes of the ICs also support this hypothesis. But then what explains the zebra patterns? 🤨
+
+I've further looked at the correlation matrices, but this time for each of the eighth of the run (18 volumes = ~26 seconds) because the IC timeseries suggested it is something transient.
+
+![Zebra patterns](figs/repair-03.png)
+
+It's interesting that the patterns do vary over time.
+
 ## Why does the headless MATLAB create a wrong figure? 🙈
 Updated: 2026-08-10
 
