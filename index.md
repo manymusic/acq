@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (27-Aug-2026 17:54:48 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (28-Aug-2026 19:01:07 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current acquisition
 
@@ -31,7 +31,7 @@ Here, the current (27-Aug-2026 17:54:48 `Europe/Berlin`) progress of the fMRI+ d
 
 ![whereami](figs/whereiam.png)
 
-<small>#REDO tracks to be planed=2</small>
+<small>#REDO tracks to be planed=3</small>
 
 ## Overall emotional responses
 ![emo-ridge](figs/emo-ridges.png)
