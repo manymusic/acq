@@ -16,7 +16,7 @@ Because of our design of varying durations of runs, some EPI volumes were collec
 
 
 ## Slice leakage 💦
-Updated: 2026-08-20
+Updated: 2026-08-26
 
 It feels doomed to see slice leakage in the data when using the multiband (MB) sequence. (This also reminds me of the only thing I learned from majoring in economics at university—*There ain't no free lunch*. A more insightful lesson, however, would be to realise that there are people who strongly believe in this mantra.) We are using the state-of-the-art MB sequence developed by the Minnesota group (i.e. CMRR). We configured the parameters for this particular scanner together with an MR physicist and tested the sequence on human participants multiple times. We did not observe any obvious signal leakage in the GLM $t$-statistic maps when using Belin's voice localiser.
 
@@ -36,6 +36,11 @@ I've further looked at the correlation matrices, but this time for each of the e
 
 It's interesting that the patterns do vary over time.
 
+Still unclear what causes this. From MELODIC results on the unprocessed EPI data, I see the same patterns again (IC7 and IC8).
+
+![Zebra patterns-again](figs/repair-04.png)
+
+
 ## Why does the headless MATLAB create a wrong figure? 🙈
 Updated: 2026-08-10
 
@@ -43,7 +48,7 @@ I managed to set up a CRON job to run preprocessing as soon as new data comes in
 
 Basically, in the SBATCH script, you need to wrap the line where it runs a MATLAB script with the `Xvfb` commands (and related bunch) like this:
 
-```
+```bash
 # Open a virtual display for MATLAB to run in headless mode
 mkdir -p /tmp/.X11-unix
 chmod 1777 /tmp/.X11-unix 2>/dev/null
@@ -109,6 +114,6 @@ Because now I have to use the isolated Windows computer to run the PsychToolBox,
 
 It turns out that it was GIT automatically fixing the line endings of the binary files, which is a common issue when using GIT on Windows (because Windows "wrongly" uses CRLF line endings instead of LF😡). To prevent this, I added a `.gitattributes` file to the repository with the following content:
 
-```
+```bash
 *.mat binary
 ```
