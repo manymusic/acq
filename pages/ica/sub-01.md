@@ -5,6 +5,46 @@ nav_order: 1
 parent: ica
 ---
 # ica: sub-01
+### 20260904T1204:sub-01_ses-14
+run-01
+![ica_run-01](figs/sub-01_ses-14_run-01.png)
+
+run-02
+![ica_run-02](figs/sub-01_ses-14_run-02.png)
+
+run-03
+![ica_run-03](figs/sub-01_ses-14_run-03.png)
+
+run-04
+![ica_run-04](figs/sub-01_ses-14_run-04.png)
+
+run-05
+![ica_run-05](figs/sub-01_ses-14_run-05.png)
+
+run-06
+![ica_run-06](figs/sub-01_ses-14_run-06.png)
+
+run-07
+![ica_run-07](figs/sub-01_ses-14_run-07.png)
+
+run-08
+![ica_run-08](figs/sub-01_ses-14_run-08.png)
+
+run-09
+![ica_run-09](figs/sub-01_ses-14_run-09.png)
+
+run-10
+![ica_run-10](figs/sub-01_ses-14_run-10.png)
+
+run-11
+![ica_run-11](figs/sub-01_ses-14_run-11.png)
+
+run-12
+![ica_run-12](figs/sub-01_ses-14_run-12.png)
+
+run-13
+![ica_run-13](figs/sub-01_ses-14_run-13.png)
+
 ### 20260828T1210:sub-01_ses-13
 run-01
 ![ica_run-01](figs/sub-01_ses-13_run-01.png)
