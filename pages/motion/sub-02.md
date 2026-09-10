@@ -23,7 +23,7 @@ parent: motion
 ### 20260806T1548:sub-02_ses-08
 ![headmotion](figs/sub-02_ses-08.png)
 
-### 20260801T1000:sub-02_ses-07
+### 20260801T0958:sub-02_ses-07
 ![headmotion](figs/sub-02_ses-07.png)
 
 ### 20260718T1020:sub-02_ses-06

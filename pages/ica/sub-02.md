@@ -224,7 +224,7 @@ run-10
 run-11
 ![ica_run-11](figs/sub-02_ses-08_run-11.png)
 
-### 20260801T1000:sub-02_ses-07
+### 20260801T0958:sub-02_ses-07
 run-01
 ![ica_run-01](figs/sub-02_ses-07_run-01.png)
 

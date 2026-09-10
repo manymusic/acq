@@ -153,7 +153,7 @@ parent: topup
 
 ![slices_run-11](figs/sub-02_ses-08_run-11.png)
 
-### 20260801T1000:sub-02_ses-07
+### 20260801T0958:sub-02_ses-07
 ![slices_run-01](figs/sub-02_ses-07_run-01.png)
 
 ![slices_run-02](figs/sub-02_ses-07_run-02.png)
