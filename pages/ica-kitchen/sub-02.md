@@ -4,7 +4,7 @@ layout: page
 nav_order: 2
 parent: ica-kitchen
 ---
-# leaking sessions: sub-02
+# leaking runs: sub-02
 ### sub-02_ses-11_run-07
 ![leaking-run](figs/sub-02_ses-11_run-07.png)
 
