@@ -9,14 +9,9 @@ I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you rep
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
-## Temporal cropping before ICA denoising 🎬
-Updated: 2026-08-20
-
-Because of our design of varying durations of runs, some EPI volumes were collected after the fixation cross offset (which happens 12 seconds after the music offset), which are not relevant to the analysis. And because the music listening was followed by button-press responses, the EPI volumes after the fixation cross offset are likely to contain motion artifacts. Highly contaminated time points can negatively affect the ICA algorithm (i.e., FSL's MELODIC).
-
 
 ## Slice leakage 💦
-Updated: 2026-08-26
+Updated: 2026-09-12
 
 It feels doomed to see slice leakage in the data when using the multiband (MB) sequence. (This also reminds me of the only thing I learned from majoring in economics at university—*There ain't no free lunch*. A more insightful lesson, however, would be to realise that there are people who strongly believe in this mantra.) We are using the state-of-the-art MB sequence developed by the Minnesota group (i.e. CMRR). We configured the parameters for this particular scanner together with an MR physicist and tested the sequence on human participants multiple times. We did not observe any obvious signal leakage in the GLM $t$-statistic maps when using Belin's voice localiser.
 
@@ -39,6 +34,17 @@ It's interesting that the patterns do vary over time.
 Still unclear what causes this. From MELODIC results on the unprocessed EPI data, I see the same patterns again (IC7 and IC8).
 
 ![Zebra patterns-again](figs/repair-04.png)
+
+Finally, I decided to open up the ICA-kitchen on the fMRI division! 👨‍🍳 (or is it ICA-plumbing 👨🏻‍🔧 because it's fixing the leakage?) Because the patterns are more detectable from the preprocessed IC maps, I'm simply removing ICs showing that 'zebra' patterns. 🦓 Instead of manually inspecting at each map, GPT-6-Astra wrote a simple code to detect the zebra pattern using 3D FFT and finding some extreme peaks from the thresholded IC maps ([.PY](code/detect_zebra_3d.py)), which is quite convenient for manual confirmation.
+
+
+
+## Temporal cropping before ICA denoising 🎬
+Updated: 2026-08-20
+
+Because of our design of varying durations of runs, some EPI volumes were collected after the fixation cross offset (which happens 12 seconds after the music offset), which are not relevant to the analysis. And because the music listening was followed by button-press responses, the EPI volumes after the fixation cross offset are likely to contain motion artifacts. Highly contaminated time points can negatively affect the ICA algorithm (i.e., FSL's MELODIC)?
+
+> Well it turns out that's not really a big issue because there are more cases with bigger motion during the music play.
 
 
 ## Why does the headless MATLAB create a wrong figure? 🙈
