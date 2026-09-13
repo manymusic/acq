@@ -14,3 +14,6 @@ parent: ica-kitchen
 ### sub-03_ses-12_run-03
 ![leaking-run](figs/sub-03_ses-12_run-03.png)
 
+### sub-03_ses-04_run-06
+![leaking-run](figs/sub-03_ses-04_run-06.png)
+
