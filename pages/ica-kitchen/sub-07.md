@@ -5,8 +5,8 @@ nav_order: 7
 parent: ica-kitchen
 ---
 # leaking runs: sub-07
-### sub-07_ses-15_rest
-![leaking-run](figs/sub-07_ses-15_rest.png)
+### sub-07_ses-15_rest-eyelink
+![leaking-run](figs/sub-07_ses-15_rest-eyelink.png)
 
 ### sub-07_ses-13_run-01
 ![leaking-run](figs/sub-07_ses-13_run-01.png)

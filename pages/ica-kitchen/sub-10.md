@@ -8,8 +8,8 @@ parent: ica-kitchen
 ### sub-10_ses-14_run-11
 ![leaking-run](figs/sub-10_ses-14_run-11.png)
 
-### sub-10_ses-14_rest
-![leaking-run](figs/sub-10_ses-14_rest.png)
+### sub-10_ses-14_rest-eyelink
+![leaking-run](figs/sub-10_ses-14_rest-eyelink.png)
 
 ### sub-10_ses-06_run-05
 ![leaking-run](figs/sub-10_ses-06_run-05.png)

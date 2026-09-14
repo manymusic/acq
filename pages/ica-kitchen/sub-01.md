@@ -23,8 +23,8 @@ parent: ica-kitchen
 ### sub-01_ses-14_run-01
 ![leaking-run](figs/sub-01_ses-14_run-01.png)
 
-### sub-01_ses-14_rest
-![leaking-run](figs/sub-01_ses-14_rest.png)
+### sub-01_ses-14_rest-eyelink
+![leaking-run](figs/sub-01_ses-14_rest-eyelink.png)
 
 ### sub-01_ses-13_run-11
 ![leaking-run](figs/sub-01_ses-13_run-11.png)
@@ -68,8 +68,8 @@ parent: ica-kitchen
 ### sub-01_ses-12_run-01
 ![leaking-run](figs/sub-01_ses-12_run-01.png)
 
-### sub-01_ses-12_rest
-![leaking-run](figs/sub-01_ses-12_rest.png)
+### sub-01_ses-12_rest-eyeclos
+![leaking-run](figs/sub-01_ses-12_rest-eyeclos.png)
 
 ### sub-01_ses-11_run-15
 ![leaking-run](figs/sub-01_ses-11_run-15.png)
@@ -122,8 +122,8 @@ parent: ica-kitchen
 ### sub-01_ses-10_run-02
 ![leaking-run](figs/sub-01_ses-10_run-02.png)
 
-### sub-01_ses-10_rest
-![leaking-run](figs/sub-01_ses-10_rest.png)
+### sub-01_ses-10_rest-eyelink
+![leaking-run](figs/sub-01_ses-10_rest-eyelink.png)
 
 ### sub-01_ses-09_run-12
 ![leaking-run](figs/sub-01_ses-09_run-12.png)
@@ -155,8 +155,8 @@ parent: ica-kitchen
 ### sub-01_ses-08_run-01
 ![leaking-run](figs/sub-01_ses-08_run-01.png)
 
-### sub-01_ses-08_rest
-![leaking-run](figs/sub-01_ses-08_rest.png)
+### sub-01_ses-08_rest-eyelink
+![leaking-run](figs/sub-01_ses-08_rest-eyelink.png)
 
 ### sub-01_ses-07_run-15
 ![leaking-run](figs/sub-01_ses-07_run-15.png)
@@ -203,8 +203,8 @@ parent: ica-kitchen
 ### sub-01_ses-06_run-02
 ![leaking-run](figs/sub-01_ses-06_run-02.png)
 
-### sub-01_ses-06_rest
-![leaking-run](figs/sub-01_ses-06_rest.png)
+### sub-01_ses-06_rest-eyeclos
+![leaking-run](figs/sub-01_ses-06_rest-eyeclos.png)
 
 ### sub-01_ses-05_run-07
 ![leaking-run](figs/sub-01_ses-05_run-07.png)
