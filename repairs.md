@@ -5,7 +5,7 @@ nav_order: 100
 ---
 # Repair-on-the-fly🛠️✈️
 
-I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you replace every single part of a ship, is it still the same ship?* And I want to take it to the next level. *If you replace every single part of a ship during the sailing, is it still the same ship?* What about an airplane? *If you replace every single part of an airplane during the flight, is it still the same airplane?* 🤔
+I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you replace every single part of a ship, is it still the same ship?* And I want to take it to the next level. *If you replace every single part of a ship during the sailing, is it still the same ship?* What about an aeroplane? *If you replace every single part of an aeroplane during the flight, is it still the same aeroplane?* 🤔
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
@@ -48,7 +48,7 @@ It's interesting that the patterns do vary over time. -->
 
 ![Zebra patterns-again](figs/repair-04.png) -->
 
-Finally, I decided to open up the ICA-kitchen on the fMRI division! 👨‍🍳 (or is it ICA-plumbing 👨🏻‍🔧 because it's fixing the leakage?) Because the patterns are more detectable from the preprocessed IC maps, I'm simply removing ICs showing that 'zebra' patterns. 🦓 Instead of manually inspecting at each map, GPT-6-Astra wrote a simple code to detect the zebra pattern using 3D FFT and finding some extreme peaks from the thresholded IC maps ([.PY](code/detect_zebra_3d.py)), which is quite convenient for manual confirmation.
+Finally, I decided to open up the second branch of the ICA-kitchen on the fMRI division! 👨‍🍳 (or is it ICA-plumbing 👨🏻‍🔧 because it's fixing the leakage?) Because the patterns are more detectable from the preprocessed IC maps, I'm simply removing ICs showing that 'zebra' patterns. 🦓 Instead of manually inspecting at each map, GPT-6-Astra wrote a simple code to detect the zebra pattern using 3D FFT and finding some extreme peaks from the thresholded IC maps ([.PY](code/detect_zebra_3d.py)), which is quite convenient for manual confirmation.
 
 
 
