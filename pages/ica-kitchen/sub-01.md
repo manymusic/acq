@@ -158,6 +158,102 @@ parent: ica-kitchen
 ### sub-01_ses-08_rest
 ![leaking-run](figs/sub-01_ses-08_rest.png)
 
+### sub-01_ses-07_run-15
+![leaking-run](figs/sub-01_ses-07_run-15.png)
+
+### sub-01_ses-07_run-14
+![leaking-run](figs/sub-01_ses-07_run-14.png)
+
+### sub-01_ses-07_run-12
+![leaking-run](figs/sub-01_ses-07_run-12.png)
+
+### sub-01_ses-07_run-08
+![leaking-run](figs/sub-01_ses-07_run-08.png)
+
+### sub-01_ses-07_run-05
+![leaking-run](figs/sub-01_ses-07_run-05.png)
+
+### sub-01_ses-07_run-03
+![leaking-run](figs/sub-01_ses-07_run-03.png)
+
+### sub-01_ses-07_run-02
+![leaking-run](figs/sub-01_ses-07_run-02.png)
+
+### sub-01_ses-07_run-01
+![leaking-run](figs/sub-01_ses-07_run-01.png)
+
+### sub-01_ses-06_run-11
+![leaking-run](figs/sub-01_ses-06_run-11.png)
+
+### sub-01_ses-06_run-09
+![leaking-run](figs/sub-01_ses-06_run-09.png)
+
+### sub-01_ses-06_run-08
+![leaking-run](figs/sub-01_ses-06_run-08.png)
+
+### sub-01_ses-06_run-05
+![leaking-run](figs/sub-01_ses-06_run-05.png)
+
+### sub-01_ses-06_run-04
+![leaking-run](figs/sub-01_ses-06_run-04.png)
+
+### sub-01_ses-06_run-03
+![leaking-run](figs/sub-01_ses-06_run-03.png)
+
+### sub-01_ses-06_run-02
+![leaking-run](figs/sub-01_ses-06_run-02.png)
+
 ### sub-01_ses-06_rest
 ![leaking-run](figs/sub-01_ses-06_rest.png)
+
+### sub-01_ses-05_run-07
+![leaking-run](figs/sub-01_ses-05_run-07.png)
+
+### sub-01_ses-05_run-06
+![leaking-run](figs/sub-01_ses-05_run-06.png)
+
+### sub-01_ses-05_run-04
+![leaking-run](figs/sub-01_ses-05_run-04.png)
+
+### sub-01_ses-05_run-03
+![leaking-run](figs/sub-01_ses-05_run-03.png)
+
+### sub-01_ses-05_run-02
+![leaking-run](figs/sub-01_ses-05_run-02.png)
+
+### sub-01_ses-05_run-01
+![leaking-run](figs/sub-01_ses-05_run-01.png)
+
+### sub-01_ses-04_run-08
+![leaking-run](figs/sub-01_ses-04_run-08.png)
+
+### sub-01_ses-04_run-07
+![leaking-run](figs/sub-01_ses-04_run-07.png)
+
+### sub-01_ses-04_run-05
+![leaking-run](figs/sub-01_ses-04_run-05.png)
+
+### sub-01_ses-04_run-02
+![leaking-run](figs/sub-01_ses-04_run-02.png)
+
+### sub-01_ses-03_run-02
+![leaking-run](figs/sub-01_ses-03_run-02.png)
+
+### sub-01_ses-02_run-04
+![leaking-run](figs/sub-01_ses-02_run-04.png)
+
+### sub-01_ses-02_run-02
+![leaking-run](figs/sub-01_ses-02_run-02.png)
+
+### sub-01_ses-02_run-01
+![leaking-run](figs/sub-01_ses-02_run-01.png)
+
+### sub-01_ses-01_run-12
+![leaking-run](figs/sub-01_ses-01_run-12.png)
+
+### sub-01_ses-01_run-04
+![leaking-run](figs/sub-01_ses-01_run-04.png)
+
+### sub-01_ses-01_run-03
+![leaking-run](figs/sub-01_ses-01_run-03.png)
 
