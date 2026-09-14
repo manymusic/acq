@@ -23,9 +23,12 @@ This example is from `sub-01_ses-04_rest`:
 <!-- ![Zebra patterns](figs/repair-01.png) -->
 
 There is a regression-based denoising algorithm, called [MARSS](https://doi.org/10.1002/hbm.70066). Slice-by-slice correlation matrices do show some improvement:
-| pre | post |
-|:--:|:--:|
-|![corrmat1](figs/sub-01_ses-06_rest_corrMatrixbold.png) | ![corrmat1](figs/sub-01_ses-06_rest_corrMatrixzabold.png) |
+
+**pre**:
+![corrmat1](figs/sub-01_ses-06_rest_corrMatrixbold.png)
+
+**post**:
+![corrmat1](figs/sub-01_ses-06_rest_corrMatrixzabold.png)
 
 But this was not enough for removing the observed patterns. The explained variance was reduced from 1.26% to 0.72%, but still not a big change:
 ![post](figs/sub-01_ses-06_rest-eyeclos_post-marrs.png)
