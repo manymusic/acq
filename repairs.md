@@ -5,7 +5,7 @@ nav_order: 100
 ---
 # Repair-on-the-fly🛠️✈️
 
-I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you replace every single part of a ship, is it still the same ship?* And I want to take it to the next level. *If you replace every single part of a ship during the sailing, is it still the same ship?* What about an airplane? *If you replace every single part of an airplane during the flight, is it still the same airplane?* 🤔
+I would like to start with the Ship of Theseus paradox🛳️⚖️: *if you replace every single part of a ship, is it still the same ship?* And I want to take it to the next level. *If you replace every single part of a ship during the sailing, is it still the same ship?* What about an aeroplane? *If you replace every single part of an aeroplane during the flight, is it still the same aeroplane?* 🤔
 
 In this page, I will document the repairs made on-the-fly, during the data collection. All issues found are documented here, along with the fixes applied. This is to ensure transparency and traceability of the data collection process. And also I think all technical issues are scary👻 at first but hilarious😂 once you understand them. So, enjoy the read! 😄
 
@@ -15,13 +15,29 @@ Updated: 2026-09-12
 
 It feels doomed to see slice leakage in the data when using the multiband (MB) sequence. (This also reminds me of the only thing I learned from majoring in economics at university—*There ain't no free lunch*. A more insightful lesson, however, would be to realise that there are people who strongly believe in this mantra.) We are using the state-of-the-art MB sequence developed by the Minnesota group (i.e. CMRR). We configured the parameters for this particular scanner together with an MR physicist and tested the sequence on human participants multiple times. We did not observe any obvious signal leakage in the GLM $t$-statistic maps when using Belin's voice localiser.
 
-However, I found the infamous "zebra patterns" (2 stipes angled as the acquisition slices) from the MELODIC IC maps that explain the quite a bit of variance in the data. Their temporal modes look highly spiky, which suggests that they might be related to head motion. This example is from `sub-01_ses-11_run-01`:
+However, I found the infamous "zebra patterns" (2 stipes angled as the acquisition slices) from the MELODIC IC maps that explain the quite a bit of variance in the data. Their temporal modes look highly spiky, which suggests that they might be related to head motion. 
 
-![Zebra patterns](figs/repair-01.png)
+This example is from `sub-01_ses-04_rest`:
+![pre](figs/sub-01_ses-06_rest_pre-marrs.png)
 
-Inspired by [MARSS](https://doi.org/10.1002/hbm.70066), I looked at the slice-by-slice correlation matrices of the raw data. Surprisingly, the runs that showed the zebra patterns in the IC maps did not show the typical off-diagonal patterns (i.e., parallel lines corresponding the simultaneously acquired slices) in the slice-by-slice correlation matrices. 
+<!-- ![Zebra patterns](figs/repair-01.png) -->
 
-![Zebra patterns](figs/repair-02.png)
+There is a regression-based denoising algorithm, called [MARSS](https://doi.org/10.1002/hbm.70066). Slice-by-slice correlation matrices do show some improvement:
+
+**pre**:
+![corrmat1](figs/sub-01_ses-06_rest_corrMatrixbold.png)
+
+**post**:
+![corrmat1](figs/sub-01_ses-06_rest_corrMatrixzabold.png)
+
+But this was not enough for removing the observed patterns. The explained variance was reduced from 1.26% to 0.72%, but still not a big change:
+![post](figs/sub-01_ses-06_rest-eyeclos_post-marrs.png)
+
+
+<!-- Inspired by [MARSS](https://doi.org/10.1002/hbm.70066), I looked at the slice-by-slice correlation matrices of the raw data.  -->
+<!-- Surprisingly, the runs that showed the zebra patterns in the IC maps did not show the typical off-diagonal patterns (i.e., parallel lines corresponding the simultaneously acquired slices) in the slice-by-slice correlation matrices.  -->
+
+<!-- ![Zebra patterns](figs/repair-02.png)
 
 This suggests that the zebra patterns may be not caused by the slice leakage, but rather by the head motion. The spiky temporal modes of the ICs also support this hypothesis. But then what explains the zebra patterns? 🤨
 
@@ -29,13 +45,13 @@ I've further looked at the correlation matrices, but this time for each of the e
 
 ![Zebra patterns](figs/repair-03.png)
 
-It's interesting that the patterns do vary over time.
+It's interesting that the patterns do vary over time. -->
 
-Still unclear what causes this. From MELODIC results on the unprocessed EPI data, I see the same patterns again (IC7 and IC8).
+<!-- Still unclear what causes this. From MELODIC results on the unprocessed EPI data, I see the same patterns again (IC7 and IC8).
 
-![Zebra patterns-again](figs/repair-04.png)
+![Zebra patterns-again](figs/repair-04.png) -->
 
-Finally, I decided to open up the ICA-kitchen on the fMRI division! 👨‍🍳 (or is it ICA-plumbing 👨🏻‍🔧 because it's fixing the leakage?) Because the patterns are more detectable from the preprocessed IC maps, I'm simply removing ICs showing that 'zebra' patterns. 🦓 Instead of manually inspecting at each map, GPT-6-Astra wrote a simple code to detect the zebra pattern using 3D FFT and finding some extreme peaks from the thresholded IC maps ([.PY](code/detect_zebra_3d.py)), which is quite convenient for manual confirmation.
+Finally, I decided to open up the second branch of the ICA-kitchen on the fMRI division! 👨‍🍳 (or is it ICA-plumbing 👨🏻‍🔧 because it's fixing the leakage?) Because the patterns are more detectable from the preprocessed IC maps, I'm simply removing ICs showing that 'zebra' patterns. 🦓 Instead of manually inspecting at each map, GPT-6-Astra wrote a simple code to detect the zebra pattern using 3D FFT and finding some extreme peaks from the thresholded IC maps ([.PY](code/detect_zebra_3d.py)), which is quite convenient for manual confirmation.
 
 
 
