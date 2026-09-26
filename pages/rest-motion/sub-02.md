@@ -5,6 +5,6 @@ nav_order: 2
 parent: rest-motion
 ---
 # headmotion: sub-02
-### 20260507T1204:sub-02_ses-15_rest-eyelink
+### 20260507T1204:sub-02_ses-16_rest-eyelink
 ![headmotion](figs/sub-02.png)
 

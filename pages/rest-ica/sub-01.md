@@ -35,3 +35,6 @@ sub-01_ses-14_rest-eyelink
 sub-01_ses-15_rest-eyelink
 ![rest-ica_sub-01_ses-15_rest-eyelink](figs/sub-01_ses-15_rest-eyelink.png)
 
+sub-01_ses-17_rest-eyelink
+![rest-ica_sub-01_ses-17_rest-eyelink](figs/sub-01_ses-17_rest-eyelink.png)
+
