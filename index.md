@@ -5,7 +5,7 @@ nav_order: 0
 ---
 
 # Overview of the current progress
-Here, the current (26-Sep-2026 19:13:41 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
+Here, the current (27-Sep-2026 16:33:25 `Europe/Berlin`) progress of the fMRI+ data acquisition of the [ManyMusic](https://manymusic.net/) project is shared. Please direct any questions to [Dr. Seung-Goo Kim](mailto:seung-goo.kim@ae.mpg.de).
 
 ## Current acquisition
 
@@ -16,11 +16,6 @@ Here, the current (26-Sep-2026 19:13:41 `Europe/Berlin`) progress of the fMRI+ d
 
 ![goodness](figs/isgood.png)
 <br><small>fdMax: framewise displacement max (mm). fdMed: FD median. fdStd: FD standard deviation. resp: respiration belt. puls: pulse-oximeter. var: variance. in-gems: in-scanner-GEMS. pupil: in-scanner EyeLink pupil. liking: post-scanning liking rating. out-gems: post-scanning-GEMS.</small>
-
-## Bad runs
-
-![badness](figs/isbad.png)
-<br><small>These runs were bad for these reasons.</small>
 
 ## Okay runs
 
