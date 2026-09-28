@@ -29,6 +29,9 @@ sub-09_ses-13_rest-eyelink
 sub-09_ses-15_rest-eyelink
 ![rest-ica_sub-09_ses-15_rest-eyelink](figs/sub-09_ses-15_rest-eyelink.png)
 
+sub-09_ses-16_rest-eyelink
+![rest-ica_sub-09_ses-16_rest-eyelink](figs/sub-09_ses-16_rest-eyelink.png)
+
 sub-09_ses-17_rest-eyelink
 ![rest-ica_sub-09_ses-17_rest-eyelink](figs/sub-09_ses-17_rest-eyelink.png)
 

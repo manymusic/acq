@@ -36,6 +36,35 @@ parent: topup
 
 ![slices_run-15](figs/sub-09_ses-17_run-15.png)
 
+### 20260922T1517:sub-09_ses-16
+![slices_run-01](figs/sub-09_ses-16_run-01.png)
+
+![slices_run-02](figs/sub-09_ses-16_run-02.png)
+
+![slices_run-03](figs/sub-09_ses-16_run-03.png)
+
+![slices_run-04](figs/sub-09_ses-16_run-04.png)
+
+![slices_run-05](figs/sub-09_ses-16_run-05.png)
+
+![slices_run-06](figs/sub-09_ses-16_run-06.png)
+
+![slices_run-07](figs/sub-09_ses-16_run-07.png)
+
+![slices_run-08](figs/sub-09_ses-16_run-08.png)
+
+![slices_run-09](figs/sub-09_ses-16_run-09.png)
+
+![slices_run-10](figs/sub-09_ses-16_run-10.png)
+
+![slices_run-11](figs/sub-09_ses-16_run-11.png)
+
+![slices_run-12](figs/sub-09_ses-16_run-12.png)
+
+![slices_run-13](figs/sub-09_ses-16_run-13.png)
+
+![slices_run-14](figs/sub-09_ses-16_run-14.png)
+
 ### 20260904T1414:sub-09_ses-15
 ![slices_run-01](figs/sub-09_ses-15_run-01.png)
 

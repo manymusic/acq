@@ -8,6 +8,9 @@ parent: motion
 ### 20260925T1413:sub-09_ses-17
 ![headmotion](figs/sub-09_ses-17.png)
 
+### 20260922T1517:sub-09_ses-16
+![headmotion](figs/sub-09_ses-16.png)
+
 ### 20260904T1414:sub-09_ses-15
 ![headmotion](figs/sub-09_ses-15.png)
 
