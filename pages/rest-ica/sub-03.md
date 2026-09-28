@@ -20,3 +20,6 @@ sub-03_ses-14_rest-eyeclos
 sub-03_ses-16_rest-eyelink
 ![rest-ica_sub-03_ses-16_rest-eyelink](figs/sub-03_ses-16_rest-eyelink.png)
 
+sub-03_ses-17_rest-eyelink
+![rest-ica_sub-03_ses-17_rest-eyelink](figs/sub-03_ses-17_rest-eyelink.png)
+

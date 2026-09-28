@@ -5,6 +5,34 @@ nav_order: 3
 parent: pca
 ---
 # pca: sub-03
+### 20260928T1255:sub-03_ses-17
+run-01
+![pca_run-01](figs/sub-03_ses-17_run-01.png)
+
+run-02
+![pca_run-02](figs/sub-03_ses-17_run-02.png)
+
+run-03
+![pca_run-03](figs/sub-03_ses-17_run-03.png)
+
+run-04
+![pca_run-04](figs/sub-03_ses-17_run-04.png)
+
+run-05
+![pca_run-05](figs/sub-03_ses-17_run-05.png)
+
+run-06
+![pca_run-06](figs/sub-03_ses-17_run-06.png)
+
+run-07
+![pca_run-07](figs/sub-03_ses-17_run-07.png)
+
+run-08
+![pca_run-08](figs/sub-03_ses-17_run-08.png)
+
+run-09
+![pca_run-09](figs/sub-03_ses-17_run-09.png)
+
 ### 20260918T1001:sub-03_ses-16
 run-01
 ![pca_run-01](figs/sub-03_ses-16_run-01.png)
