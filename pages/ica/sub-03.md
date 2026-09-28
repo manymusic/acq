@@ -30,9 +30,6 @@ run-07
 run-08
 ![ica_run-08](figs/sub-03_ses-17_run-08.png)
 
-run-09
-![ica_run-09](figs/sub-03_ses-17_run-09.png)
-
 ### 20260918T1001:sub-03_ses-16
 run-01
 ![ica_run-01](figs/sub-03_ses-16_run-01.png)
