@@ -62,6 +62,30 @@ parent: ica-kitchen
 ### sub-01_ses-14_rest-eyelink
 ![leaking-run](figs/sub-01_ses-14_rest-eyelink.png)
 
+### sub-01_ses-13_run-10
+![leaking-run](figs/sub-01_ses-13_run-10.png)
+
+### sub-01_ses-13_run-09
+![leaking-run](figs/sub-01_ses-13_run-09.png)
+
+### sub-01_ses-13_run-08
+![leaking-run](figs/sub-01_ses-13_run-08.png)
+
+### sub-01_ses-13_run-07
+![leaking-run](figs/sub-01_ses-13_run-07.png)
+
+### sub-01_ses-13_run-06
+![leaking-run](figs/sub-01_ses-13_run-06.png)
+
+### sub-01_ses-13_run-05
+![leaking-run](figs/sub-01_ses-13_run-05.png)
+
+### sub-01_ses-13_run-04
+![leaking-run](figs/sub-01_ses-13_run-04.png)
+
+### sub-01_ses-13_rest-eyelink
+![leaking-run](figs/sub-01_ses-13_rest-eyelink.png)
+
 ### sub-01_ses-12_rest-eyeclos
 ![leaking-run](figs/sub-01_ses-12_rest-eyeclos.png)
 
