@@ -5,6 +5,27 @@ nav_order: 1
 parent: ica-kitchen
 ---
 # leaking runs: sub-01
+### sub-01_ses-18_run-07
+![leaking-run](figs/sub-01_ses-18_run-07.png)
+
+### sub-01_ses-18_run-06
+![leaking-run](figs/sub-01_ses-18_run-06.png)
+
+### sub-01_ses-18_run-05
+![leaking-run](figs/sub-01_ses-18_run-05.png)
+
+### sub-01_ses-18_run-04
+![leaking-run](figs/sub-01_ses-18_run-04.png)
+
+### sub-01_ses-18_run-03
+![leaking-run](figs/sub-01_ses-18_run-03.png)
+
+### sub-01_ses-18_run-02
+![leaking-run](figs/sub-01_ses-18_run-02.png)
+
+### sub-01_ses-18_run-01
+![leaking-run](figs/sub-01_ses-18_run-01.png)
+
 ### sub-01_ses-17_run-07
 ![leaking-run](figs/sub-01_ses-17_run-07.png)
 
