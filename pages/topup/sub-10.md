@@ -5,6 +5,21 @@ nav_order: 10
 parent: topup
 ---
 # topup: sub-10
+### 20261001T1208:sub-10_ses-18
+![slices_run-01](figs/sub-10_ses-18_run-01.png)
+
+![slices_run-02](figs/sub-10_ses-18_run-02.png)
+
+![slices_run-03](figs/sub-10_ses-18_run-03.png)
+
+![slices_run-04](figs/sub-10_ses-18_run-04.png)
+
+![slices_run-05](figs/sub-10_ses-18_run-05.png)
+
+![slices_run-06](figs/sub-10_ses-18_run-06.png)
+
+![slices_run-07](figs/sub-10_ses-18_run-07.png)
+
 ### 20260926T1220:sub-10_ses-17
 ![slices_run-01](figs/sub-10_ses-17_run-01.png)
 
